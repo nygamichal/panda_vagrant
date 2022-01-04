@@ -11,7 +11,5 @@ Vagrant.configure("2") do |config|
     git clone https://github.com/nygamichal/K8S.git
     cd K8S/vote-app
     sh 01_run-vote-app.sh
-    sleep 40
-    sh 02_run-vote-port-forward.sh
   EOF
 end
