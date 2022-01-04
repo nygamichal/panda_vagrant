@@ -42,7 +42,7 @@ Vagrant.configure("2") do |config|
     tar -xvf apache-maven-3.6.3-bin.tar.gz
     mv apache-maven-3.6.3 maven
     rm apache-maven-3.6.3-bin.tar.gz
-    git clone https://github.com/PandaAcademy/panda_env
+    git clone https://github.com/nygamichal/panda_env
     cd panda_env
     ./start.sh
   EOF
